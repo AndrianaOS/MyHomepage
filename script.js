@@ -15,6 +15,7 @@ const {
   These are all the elements we will look for.
    ===================
 */
+/*
 const getHeader = document.querySelectorAll("header"),
   getH1 = document.querySelectorAll("h1"),
   getSiteHeader = document.querySelectorAll(".c-site-header"),
@@ -25,6 +26,7 @@ const getHeader = document.querySelectorAll("header"),
   getIFrame = document.querySelectorAll("iframe"),
   getImage = document.querySelectorAll("img"),
   getWords = document.body.innerText;
+  */
 
 /* =================
    ASSERTIONS 
