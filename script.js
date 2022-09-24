@@ -1,13 +1,5 @@
 var click_cheesecake, click_brownies;
 
-
-
-document.getElementById('click_count').addEventListener('click', (event) => {
-  click_count = (typeof click_count === 'number' ? click_count : 0) + 1;
-  event.target.innerText = click_count;
-
-});
-
 document.getElementById('cheesecake_button').addEventListener('click', (event) => {
   click_cheesecake = (typeof click_cheesecake === 'number' ? click_cheesecake : 0) + 1;
   let element_click_cheesecake = document.getElementById('click-cheesecake');
