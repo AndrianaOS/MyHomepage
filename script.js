@@ -77,7 +77,7 @@ shop_list.forEach((item) => {
   new_li4.innerText = item;
   let new_span = document.createElement('span');
   let new_button = document.createElement('button');
-  new_button.innerText = 'add to cart';
+  new_button.innerText = 'Add to cart';
   new_button.setAttribute("id", item);
 
   new_span.appendChild(new_button);
