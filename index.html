@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Personal Home Page</title>
-  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
-  <title>Cracking the Andriana Code
-  </title>
-<aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
-</aside>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <title>Cracking the Andriana Code</title>
+</head>
+<body>
+  
 
 <header class="c-site-header">
-  <h1>
+  <h1 id="andi-title">
     Cracking The Andriana Code
   </h1>
  <div class="navcontainer">
   <nav>
         <ul class="navbar">
-          <li><a href="About">About me</a></li>
-          <li><a href="Hobbies">Hobbies</a></li>
+          <li id="about"><a href="About">About me</a></li>
+          <li id="hobbies"><a href="Hobbies">Hobbies</a></li>
     </ul>
       </nav>
   </div>
 </header>
 
-<body>
+
 <main>
   <h2 id="About">About me</h2>
   
@@ -39,15 +43,18 @@ My interest in tech focusing on coding; started as a way of understanding the in
   <p>
    I started dabbling with coding through a website to learn the basics, I took to quite well.
     I want to learn more through this course to enable me secure a job once the course is completed.
+    I aspire to progress into cyber security as my tech journey continues.
   </p>
   
   <h2 id="Hobbies">Hobbies</h2>
   
     <p>
-    I like experimenting and making different types of <a href="cheesecake.html" id="cheesecake">cheesecake</a> and <a href="brownies.html" id="brownies">brownies</a>
+    I have found a passion for experimenting and making different types of <a href="cheesecake.html" id="cheesecake">cheesecake</a> and <a href="brownies.html" id="brownies">brownies</a>. Below are some pictures of different cheesecakes i have attempted before.
     </p>
   
-    <div>
+    <p>
+      To see how many people would prefer the recipe for either cheesecakes or brownies, please click the buttons below to show which you would prefer.</p>
+      <div>
 If you prefer the cheesecake recipe, click <button id="cheesecake_button">here</button>
       <label id="click-cheesecake">0</label> people liked cheesecake.</p>
 </div>
@@ -57,10 +64,12 @@ If you prefer the brownies recipe, click <button id="brownies_button">here</butt
       <label id="click-brownies">0</label> people liked brownies.</p>
 </div>
   
-        <p>Click below to see our selection of cheesecakes we offer</p>
+<div>       
+<p>Click below to see our selection of cheesecakes we offer</p>
 <button id="previous">Previous</button>
 <button id="next">Next</button>
 <img id="images">
+</div> 
   
    <h3>Shopping list</h3>
 <div>
