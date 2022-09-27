@@ -29,10 +29,10 @@ body {
   font-size: 50px;
 }
 
-body{
+ /*body{
   background-image: linear-gradient(#6495ED, #ED64DA, #EDBC64);
-  /*background-color: cornflowerblue;*/
-}
+ background-color: cornflowerblue;
+}*/
 
 #about{
   font-size: 25px;
